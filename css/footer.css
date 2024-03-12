@@ -1,0 +1,51 @@
+.anyartLogo {
+    width: 3.75rem;
+    height: 3.75rem;
+    cursor: pointer;
+}
+
+.anyartText {
+    cursor: pointer;
+}
+
+.f_leftBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.f_icon {
+    width: 3rem;
+    height: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    /* border: 2px solid #222; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.f_icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.f_icon_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.f_text {
+    margin-bottom: 1.875rem;
+}
+
+.f_logo {
+    margin-top: 0.625rem;
+    margin-bottom: 1.875rem;
+    /* background: rgba(255, 255, 255, 0.1); */
+    cursor: pointer;
+}
+
+.f_leftBox {
+    display: flex;
+    flex-direction: column;
+}

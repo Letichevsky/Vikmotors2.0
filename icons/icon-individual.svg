@@ -1,0 +1,129 @@
+<svg class="svg-icon" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.svg-icon {
+    stroke:rgba(255, 255, 255, 1);
+    stroke-width:2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill:none;
+    margin: 0 auto;
+    display:block;
+}
+
+.circle {
+    rx:11;
+    animation: circle 8s ease-in-out infinite;
+}
+@keyframes circle {
+    25% {
+        transform: translate(40px, 0px);
+        rx:1;
+    }
+    50% {
+        transform: translate(40px, 40px);
+        rx:11;
+    }
+    75% {
+        transform: translate(0px, 40px);
+        rx:1;
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.triangle {
+    transform-origin: 52px 16px;
+    animation: triangle 8s ease-in-out infinite;
+}
+@keyframes triangle {
+    25% {
+        transform: translate(0px, 36px) rotate(120deg);
+    }
+    50% {
+        transform: translate(-40px, 36px) rotate(0deg);
+    }
+    75% {
+        transform: translate(-40px, 0px) rotate(-120deg);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+.square {
+    rx:1;
+    animation: square 8s ease-in-out infinite;
+}
+@keyframes square {
+    25% {
+        transform: translate(0px, -40px);
+        rx:11;
+    }
+    50% {
+        transform: translate(40px, -40px);
+        rx:1;
+    }
+    75% {
+        transform: translate(40px, 0px);
+        rx:11;
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.cross_left {
+    transform-origin: 52px 52px;
+    animation: cross_left 8s ease-in-out infinite;
+}
+@keyframes cross_left {
+    25% {
+        transform: translate(-40px, 0px);
+        d: path("M62 52 L42 52");
+    }
+    50% {
+        transform: translate(-40px, -40px);
+        d: path("M42 42 L62 62");
+    }
+    75% {
+        transform: translate(0px, -40px);
+        d: path("M62 52 L42 52");
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+.cross_right {
+    transform-origin: 52px 52px;
+    animation: cross_right 8s ease-in-out infinite;
+}
+@keyframes cross_right {
+    25% {
+        transform: translate(-40px, 0px);
+        d: path("M52 62 L52 42");
+    }
+    50% {
+        transform: translate(-40px, -40px);
+        d: path("M62 42 L42 62");
+    }
+    75% {
+        transform: translate(0px, -40px);
+        d: path("M52 62 L52 42");
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+</style>
+
+<rect class="circle" x="1" y="1" width="22" height="22"/>
+<g class="triangle">
+<path d="M52 4 L62 22 H42 L52 4Z"/>
+</g>
+<rect class="square" x="1" y="41" width="22" height="22"/>
+
+<path class="cross_left" d="M42 42 L62 62"/>
+<path class="cross_right" d="M62 42 L42 62"/>
+
+</svg>

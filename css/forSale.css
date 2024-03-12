@@ -1,0 +1,254 @@
+#sec3Box1 {
+    background: url(/img/store__block-1.jpg) no-repeat center center / cover;
+}
+
+.sectionBoxRightTitle {
+    margin-top: 11.25rem;
+}
+
+.sectionBody {
+    width: 100vw;
+    padding: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#actualBody {
+    background: #0A1834;
+}
+
+.cardCar {
+    width: 72.5rem;
+    margin: 1.875rem;
+    display: flex;
+    padding: 3.75rem;
+
+    background: #333;
+}
+
+#cardCarActual {
+    background: #0F234C;
+}
+
+.cardCarHalf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* LEFT HALF */
+.carTitle {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #fff;
+    margin-bottom: 1.875rem;
+    width: 100%;
+    text-align: left;
+}
+
+.carAvatar {
+    width: 100%;
+    max-height: 31.25rem;
+    margin-bottom: 1.875rem;
+    object-fit: cover;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carPhoto {
+    width: 8.75rem;
+    height: 8.75rem;
+    object-fit: cover;
+}
+
+/* RIGHT HALF */
+#cardCarHalfRight {
+    padding-left: 1.875rem;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #fff;
+    margin-bottom: 1.875rem;
+    width: 100%;
+    text-align: right;
+}
+
+.carCharacteristicsBox {
+    width: 100%;
+    margin-bottom: 3.75rem;
+}
+
+.carCharacteristicsLine {
+    display: flex;
+    align-items: center;
+}
+
+.carIconBox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.625rem;
+}
+
+.carIcon {
+    width: 1.5rem;
+    margin-right: 0.625rem;
+}
+
+.carCharacteristicLeft {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+    white-space: nowrap;
+}
+
+.carCharacteristicRight {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0.2rem;
+}
+
+#carDescTitle {
+    width: 100%;
+    text-align: left;
+}
+
+.btnBox {
+    margin-top: 3.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.forSaleTitle,
+.actualTitle,
+.soldTitle {
+    letter-spacing: 0.5em;
+    white-space: nowrap;
+}
+
+/* SOLD */
+#soldBody {
+    background: #07090E;
+}
+
+#soldTitle {
+    background: #0D111A;
+}
+
+#cardCarSold {
+    background: #0D111A;
+}
+
+@media screen and (max-width: 1300px) {
+    .secTitle {
+        white-space: normal;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cardCar {
+        display: flex;
+        width: auto;
+    }
+
+    .secTitle {
+        letter-spacing: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .secTitle {
+        letter-spacing: 0.5rem;
+    }
+
+    #sec3Title {
+        letter-spacing: 0.5rem;
+    }
+
+    .cardCar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardCarHalf {
+        width: 100%;
+    }
+
+    #cardCarHalfRight {
+        padding: 0;
+    }
+
+    .carTitle {
+        width: 100%;
+    }
+
+    .price {
+        width: 100%;
+        margin-top: 1.875rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .cardCar {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* .carPhoto:last-child {
+        display: none;
+    } */
+
+    .carPhoto {
+        margin: 0 0.875rem 0.875rem 0;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .secTitle {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .cardCar {
+        padding: 1.875rem 0.875rem;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .gallery {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .secTitle {
+        font-size: 1.5rem;
+    }
+
+    .carCharacteristicsLine {
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 0px) {}

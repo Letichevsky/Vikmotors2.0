@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/adaptation.css" />
+    <link rel="stylesheet" href="/css/forSale.css" />
+    <link type="image/x-icon" href="/favicon.png" rel="shortcut icon" />
+    <link type="image/x-icon" href="/favicon.png" rel="icon" />
+    <title>Sale</title>
+  </head>
+  <body>
+    <div class="backgroundVideo">
+      <video src="/video/audi.mp4" autoplay loop muted class="bgVideo"></video>
+    </div>
+    <div class="backgroundPhoto"></div>
+
+    <div class="body">
+      <!-- HEADER -->
+      <header>
+        <div class="header">
+          <div class="hContentArea">
+            <div class="logo">
+              <img src="/icons/logo.svg" alt="#" class="logo" />
+            </div>
+
+            <!-- NAVIGATION -->
+            <nav>
+              <ul class="nav">
+                <li class="navItem">
+                  <a href="/index.html" class="navLink">Главная</a>
+                </li>
+                <li class="navItem">
+                  <a href="/html/price.html" class="navLink">Стоимость услуг</a>
+                </li>
+                <li class="navItem">
+                  <a
+                    href="/html/carsForSale.html"
+                    class="navLink"
+                    id="currentPag"
+                    >Актуальные предложения</a
+                  >
+                </li>
+                <li class="navItem">
+                  <a href="/html/contacts.html" class="navLink">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- BURGER -->
+            <div class="burger">
+              <div class="burgerLine burgerLine1"></div>
+              <div class="burgerLine burgerLine2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BURGER MENU -->
+        <div class="burgerMenu">
+          <nav class="b_nav">
+            <ul class="b_nav">
+              <li class="b_navItem">
+                <a href="/index.html" class="b_navLink" id="b_currentPag"
+                  >Главная</a
+                >
+              </li>
+              <li class="b_navItem">
+                <a href="/html/price.html" class="b_navLink">Стоимость услуг</a>
+              </li>
+              <li class="b_navItem">
+                <a href="/html/carsForSale.html" class="b_navLink"
+                  >Актуальные предложения</a
+                >
+              </li>
+              <li class="b_navItem">
+                <a href="/html/contacts.html" class="b_navLink">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- SECTION PRICE -->
+      <section>
+        <div class="sectionBox sectionPrice" id="sec3Box1">
+          <div class="sectionBoxRight">
+            <h4 class="sectionBoxRightTitle">Актуальные предложения</h4>
+            <p class="sectionBoxRightDescription">
+              У VikMotors также есть авто в наличии. Покупка из наличия экономит
+              ваши силы, время и средства. Каждую машину мы уже проверили в
+              деле. Дело осталось за малым — подготовить документы и отправить
+              навстречу вам.<br /><br />
+
+              Ниже детально описали каждое авто, которое можно приобрести прямо
+              сегодня.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ACTUAL CARS -->
+      <section>
+        <div class="secTitleBox" id="sec2TitleBox">
+          <h2 class="secTitle actualTitle" id="sec3Title">Авто в наличии</h2>
+        </div>
+
+        <div class="sectionBody" id="actualBody">
+          <!-- CAR 1 -->
+          <div class="cardCar" id="cardCarActual">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">BMW 5-Series, 2020</h4>
+              <img src="/photo/car1photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car1photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car1photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car1photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">249 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">21.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription">
+                Богатая комплектация, безупречное авто, в ДТП не учавствовал,
+                вся в родном окрасе, вся зона риска затянута премиальной
+                защитной плёнкой, гарантия до января 2024 года, обслуживание у
+                официального дилера, на пробеге 19.000 пройдено ТО.2 комплекта
+                резины.Родные накладки на зеркала и диффузор заднего бампера в
+                наличии.
+              </p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAR 2 -->
+          <div class="cardCar" id="cardCarActual">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">Audi A6 50 TDI, 2019</h4>
+              <img src="/photo/car2photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car2photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car2photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car2photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">284 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">Полный</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">24.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAR 3 -->
+          <div class="cardCar" id="cardCarActual">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">Volkswagen id4, 2021</h4>
+              <img src="/photo/car3photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car3photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car3photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car3photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 45 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">Электро</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">77 КВт</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">Автоматическая</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">5.500</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION FOR SALE -->
+      <section>
+        <div class="secTitleBox" id="sec2TitleBox">
+          <h2 class="secTitle forSaleTitle" id="sec3Title">
+            Актуальные предолжения
+          </h2>
+        </div>
+
+        <div class="sectionBody" id="actualBody">
+          <!-- CAR 1 -->
+          <div class="cardCar" id="cardCarActual">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">BMW 5-Series, 2020</h4>
+              <img src="/photo/car4photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car4photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car4photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car4photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">249 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">21.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAR 2 -->
+          <div class="cardCar" id="cardCarActual">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">BMW 5-Series, 2020</h4>
+              <img src="/photo/car5photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car5photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car5photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car5photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">249 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">21.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAR 3 -->
+          <div class="cardCar" id="cardCarActual">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">BMW 5-Series, 2020</h4>
+              <img src="/photo/car6photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car6photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car6photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car6photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">249 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">21.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION SOLD OUT -->
+      <section>
+        <div class="secTitleBox" id="soldTitle">
+          <h2 class="secTitle soldTitle" id="sec3Title">Проданные авто</h2>
+        </div>
+
+        <div class="sectionBody" id="soldBody">
+          <!-- CAR 1 -->
+          <div class="cardCar" id="cardCarSold">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">BMW 5-Series, 2020</h4>
+              <img src="/photo/car7photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car7photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car7photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car7photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">249 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">21.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAR 2 -->
+          <div class="cardCar" id="cardCarSold">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">BMW 5-Series, 2020</h4>
+              <img src="/photo/car8photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car8photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car8photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car8photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">249 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">21.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAR 3 -->
+          <div class="cardCar" id="cardCarSold">
+            <div class="cardCarHalf">
+              <h4 class="carTitle">BMW 5-Series, 2020</h4>
+              <img src="/photo/car9photo1.jpg" alt="#" class="carAvatar" />
+              <div class="gallery">
+                <img src="/photo/car9photo2.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car9photo3.jpg" alt="#" class="carPhoto" />
+                <img src="/photo/car9photo4.jpg" alt="#" class="carPhoto" />
+              </div>
+            </div>
+            <div class="cardCarHalf" id="cardCarHalfRight">
+              <h4 class="price">€ 49 000</h4>
+              <div class="carCharacteristicsBox">
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-engine.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Двигатель</p>
+                  </div>
+                  <p class="carCharacteristicRight">дизель, 3.0 л</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-power.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Мощность</p>
+                  </div>
+                  <p class="carCharacteristicRight">249 л.с.</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-transmission.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Трансмиссия</p>
+                  </div>
+                  <p class="carCharacteristicRight">АКПП</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-drive.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Привод</p>
+                  </div>
+                  <p class="carCharacteristicRight">4WD</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img src="/icons/icon-road.svg" alt="#" class="carIcon" />
+                    <p class="carCharacteristicLeft">Пробег, км</p>
+                  </div>
+                  <p class="carCharacteristicRight">21.000</p>
+                </div>
+
+                <div class="carCharacteristicsLine">
+                  <div class="carIconBox">
+                    <img
+                      src="/icons/icon-location.svg"
+                      alt="#"
+                      class="carIcon"
+                    />
+                    <p class="carCharacteristicLeft">Город</p>
+                  </div>
+                  <p class="carCharacteristicRight">Berlin</p>
+                </div>
+              </div>
+              <p class="carCharacteristicLeft" id="carDescTitle">Описание:</p>
+              <p class="carCharacteristicRight" id="carDescription"></p>
+              <div class="btnBox">
+                <div class="btn">Посмотреть</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5 QUESTIONS? -->
+      <section>
+        <div class="section" id="sec5">
+          <h2 class="sec5Title" data-aos="fade-left" data-aos-delay="150">
+            Остались вопросы?
+          </h2>
+          <div class="btn" id="btnLinkContacts">Контакты</div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer">
+          <div class="f_contentArea">
+            <div class="f_leftBox">
+              <div class="f_logo">
+                <img src="/icons/logo.svg" alt="#" class="f_logo" />
+              </div>
+              <a href="tel:+49 157 5806 4259" class="f_text"
+                >+49 157 5806 4259</a
+              >
+              <a href="mailto: info@vikmotors.de" class="f_text"
+                >info@vikmotors.de</a
+              >
+              <a href="/html/impressum.html" class="f_text">Impressum</a>
+              <p class="f_text">Copyright © 2023</p>
+            </div>
+            <div class="f_rightBox">
+              <div class="socialBox f_socialBox">
+                <div class="f_icon" id="f_icon1">
+                  <img src="/icons/TG.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon2">
+                  <img src="/icons/WU.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon3">
+                  <img src="/icons/VB.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon5">
+                  <img src="/icons/FB.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon6">
+                  <img src="/icons/IG.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon4">
+                  <img src="/icons/YT.svg" alt="#" class="f_icon_icon" />
+                </div>
+              </div>
+              <div class="anyartBox">
+                <p class="anyartText">production by</p>
+                <div class="anyartLogo">
+                  <img
+                    src="/img/AnyArt_Logo_White.svg"
+                    alt="#"
+                    class="anyartLogo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/js/header.js"></script>
+    <script src="/js/footer.js"></script>
+    <script src="/js/cars.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+    ></script>
+  </body>
+</html>

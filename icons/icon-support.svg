@@ -1,0 +1,247 @@
+<svg class="svg-icon" width="36" height="68" viewBox="0 0 36 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.svg-icon {
+    stroke:rgba(255, 255, 255, 1);
+    stroke-width:2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill:none;
+    margin: 0 auto;
+    display:block;
+}
+
+.line-1 {
+    animation: line-1 8s ease-in-out infinite;
+}
+@keyframes line-1 {
+    7% {
+        transform: translate(0px, -4px);
+        opacity: 0;
+    }
+    8% {
+        transform: translate(-22px, 26px);
+        opacity: 0;
+    }
+    16% {
+        transform: translate(0px, 26px);
+        opacity: 1;
+    }
+    24%, 32% {
+        transform: translate(0px, 20px);
+    }
+    40%, 48% {
+        transform: translate(0px, 16px);
+    }
+    56%,64% {
+        transform: translate(0px, 10px);
+    }
+    72%,80% {
+        transform: translate(0px, 6px);
+    }
+    88%,100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.line-2 {
+    animation: line-2 8s ease-in-out infinite;
+}
+@keyframes line-2 {
+    8%,16% {
+        transform: translate(0px, -6px);
+        opacity: 1;    
+    }
+    23% {
+        transform: translate(0px, -10px);
+        opacity: 0;
+    }
+    24% {
+        transform: translate(22px, 20px);
+        opacity: 0;
+    }
+    32% {
+        transform: translate(0px, 20px);
+        opacity: 1;
+    }
+    40%, 48%  {
+        transform: translate(0px, 16px);
+    }
+    56%,64% {
+        transform: translate(0px, 10px);
+    }
+    72%,80% {
+        transform: translate(0px, 6px);
+    }
+    88%,100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.line-3 {
+    animation: line-3 8s ease-in-out infinite;
+}
+@keyframes line-3 {
+    8%,16% {
+        transform: translate(0px, -6px); 
+    }
+    24%,32% {
+        transform: translate(0px, -12px);
+        opacity: 1;
+    }
+    39% {
+        transform: translate(0px, -16px);
+        opacity: 0;
+    }
+    40% {
+        transform: translate(22px, 16px);
+        opacity: 0;
+    }
+    48% {
+        transform: translate(0px, 16px);
+        opacity: 1;
+    }
+    56%,64% {
+        transform: translate(0px, 10px);
+    }
+    72%,80% {
+        transform: translate(0px, 6px);
+    }
+    88%,100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.line-4 {
+    animation: line-4 8s ease-in-out infinite;
+}
+@keyframes line-4 {
+    8%,16% {
+        transform: translate(0px, -6px); 
+    }
+    24%,32% {
+        transform: translate(0px, -12px);
+    }
+    40%,48% {
+        transform: translate(0px, -16px);
+        opacity: 1;
+    }
+    55% {
+        transform: translate(0px, -20px);
+        opacity: 0;
+    }
+    56% {
+        transform: translate(-22px, 10px);
+        opacity: 0;
+    }
+    64% {
+        transform: translate(0px, 10px);
+        opacity: 1;
+    }
+    72%,80% {
+        transform: translate(0px, 6px);
+    }
+    88%,100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.line-5 {
+    animation: line-5 8s ease-in-out infinite;
+}
+@keyframes line-5 {
+    8%,16% {
+        transform: translate(0px, -6px); 
+    }
+    24%,32% {
+        transform: translate(0px, -12px);
+    }
+    40%,48% {
+        transform: translate(0px, -16px);
+    }
+    56%,64% {
+        transform: translate(0px, -22px);
+        opacity: 1;
+    }
+    71% {
+        transform: translate(0px, -26px);
+        opacity: 0;
+    }
+    72% {
+        transform: translate(-22px, 6px);
+        opacity: 0;
+    }
+    80% {
+        transform: translate(0px, 6px);
+        opacity: 1;
+    }
+    88%,100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.line-6 {
+    animation: line-6 8s ease-in-out infinite;
+}
+@keyframes line-6 {
+    8%,16% {
+        transform: translate(0px, -6px); 
+    }
+    24%,32% {
+        transform: translate(0px, -12px);
+    }
+    40%,48% {
+        transform: translate(0px, -16px);
+    }
+    56%,64% {
+        transform: translate(0px, -22px);
+    }
+    72%,80% {
+        transform: translate(0px, -26px);
+        opacity: 1;
+    }
+    87% {
+        transform: translate(0px, -30px);
+        opacity: 0;
+    }
+    88% {
+        transform: translate(22px, 0px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+
+</style>
+
+<path class="line-1" d="M6 16H22"/>
+<path class="line-2" d="M14 22H30"/>
+<path class="line-3" d="M14 26H30"/>
+<path class="line-4" d="M6 32H22"/>
+<path class="line-5" d="M6 36H22"/>
+<path class="line-6" d="M14 42H30"/>
+
+<rect x="1" y="1" width="34" height="66" rx="7" />
+<path d="M15 6H21" />
+<path d="M13 64H23" />
+
+<g class="keyboard">
+<path d="M29 50L31 50" />
+<path d="M29 58L31 58" />
+<path d="M23 50L25 50" />
+<path d="M23 58L25 58" />
+<path d="M17 50L19 50" />
+<path d="M17 58L19 58" />
+<path d="M11 50L13 50" />
+<path d="M11 58L13 58" />
+<path d="M5 50L7 50" />
+<path d="M5 58L7 58" />
+<path d="M8 54L10 54" />
+<path d="M14 54L16 54" />
+<path d="M20 54L22 54" />
+<path d="M26 54L28 54" />
+</g>
+
+
+</svg>

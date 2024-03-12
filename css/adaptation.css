@@ -1,0 +1,574 @@
+@media screen and (max-width: 1000px) {
+    .backgroundVideo {
+        display: none;
+    }
+
+    .backgroundPhoto {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1370px) {
+    #sec4Title {
+        letter-spacing: 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .hContentArea,
+    .titleBox,
+    .section {
+        padding-left: 3.75rem;
+        padding-right: 3.75rem;
+    }
+
+    .sec1Line {
+        width: 100%;
+    }
+
+    .secTitle {
+        text-align: center;
+    }
+
+    #sec4Title {
+        letter-spacing: 2rem;
+    }
+
+    .btnBox {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    /* .btnWatch {
+        margin-top: 2.5rem;
+    } */
+
+    .btnWatchText {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+
+    .sectionBoxRightDescription.active4 {
+        height: 12rem;
+    }
+
+    .sectionBoxRightDescription.active5 {
+        height: 12rem;
+    }
+
+    .theLine {
+        max-height: 210rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .title {
+        font-size: 6vh;
+    }
+
+    #secondTitle {
+        font-size: 6vh;
+    }
+
+    #sec2Title {
+        letter-spacing: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1039px) {
+    .btnWatch {
+        margin-top: 2.5rem;
+    }
+
+    .btnBox {
+        width: min-content;
+    }
+
+    .btnWatchText {
+        display: block;
+        margin-right: 1.5rem;
+    }
+
+    .btnWatch {
+        flex-direction: row-reverse;
+
+    }
+}
+
+@media screen and (max-width: 966px) {
+    .title {
+        font-size: 5vh;
+    }
+
+    #secondTitle {
+        font-size: 5vh;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    html {
+        font-size: 18px;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #sec3Title {
+        letter-spacing: 2.5rem;
+    }
+
+    #sec4Title {
+        letter-spacing: 1rem;
+    }
+
+    .scillsContainer {
+        display: grid;
+        grid-template-areas:
+            "1 1"
+            "2 2"
+        ;
+    }
+
+    #iconBox1 {
+        grid-area: 1;
+    }
+
+    #iconBox2 {
+        grid-area: 1;
+    }
+
+    #iconBox3 {
+        grid-area: 2;
+    }
+
+    #iconBox4 {
+        grid-area: 2;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    #sec2Title {
+        letter-spacing: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .body {
+        max-width: 100vw;
+        width: 100vw;
+    }
+
+    .titleBox {
+        height: 66.66vh;
+        padding-top: 30vh;
+    }
+
+    #sec2Title {
+        letter-spacing: 1rem;
+    }
+
+    #sec3Title {
+        letter-spacing: 1.5rem;
+    }
+
+    #sec4Title {
+        letter-spacing: 0.5rem;
+    }
+
+    .theLine {
+        max-height: 203rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .secTitle {
+        white-space: nowrap;
+    }
+
+    .sectionBoxRight {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        padding: 3.75rem;
+    }
+
+    /* THE LINE */
+    .theLine {
+        margin-left: -1.875rem;
+    }
+
+    /* POINT LINE */
+    .pointLine {
+        width: 0%;
+        border-top: 1px solid #fff;
+
+        transition: 1s ease-in-out;
+    }
+
+    .pointLineRight {
+        margin-left: -1.875rem;
+    }
+
+    .pointLineLeft {
+        margin-left: -1.875rem;
+    }
+
+    /* POINT */
+    .pointBox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: -1.5rem 0 1.875rem 0;
+    }
+
+    .pointBoxLeft {
+        justify-content: end;
+    }
+
+    .thePoint {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: content-box;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        /* border: 2px solid #fff; */
+        transition: 0.2s ease-in-out;
+    }
+
+    .thePointRight {
+        margin-left: -2.325rem;
+    }
+
+    .thePointLeft {
+        margin-right: none;
+        margin-left: -2.325rem;
+    }
+
+    .thePoint.active {
+        transform: scale(1.5);
+        background: #fff;
+    }
+
+    /* POINT */
+    .pointBoxLeft {
+        justify-content: start;
+        flex-direction: row-reverse;
+    }
+
+    .sectionBoxRight {
+        width: 100%;
+        height: 100%;
+        margin-left: none;
+        padding: 3.75rem;
+    }
+
+    .sectionBoxLeft {
+        width: 100%;
+        height: 100%;
+        margin-right: none;
+        padding: 3.75rem;
+        align-items: flex-start;
+    }
+
+    .sectionBoxLeftTitle,
+    .sectionBoxLeftDescription,
+    .sectionBoxRightDescription {
+        text-align: left;
+        max-width: none;
+        width: 100%;
+    }
+
+    .btnBox {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btnWatch {
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    /* #sec5 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+
+    .contentArea {
+        padding: 3.75rem 0;
+    }
+
+    .f_socialBox {
+        display: grid;
+
+        grid-template-areas:
+            "1 2 3"
+            "5 6 4"
+        ;
+    }
+
+    #f_icon1 {
+        grid-area: '1';
+    }
+
+    #f_icon2 {
+        grid-area: '2';
+    }
+
+    #f_icon3 {
+        grid-area: "3";
+    }
+
+    #f_icon5 {
+        grid-area: '5';
+    }
+
+    #f_icon6 {
+        grid-area: '6';
+    }
+
+    #f_icon4 {
+        grid-area: '4';
+    }
+
+    .f_icon {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .title {
+        font-size: 4vh;
+    }
+
+    #secondTitle {
+        font-size: 4vh;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .title {
+        font-size: 4vh;
+    }
+
+    #secondTitle {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .secTitle {
+        letter-spacing: 1rem;
+        line-height: 4rem;
+        white-space: normal;
+    }
+
+    #sec2Title {
+        letter-spacing: 1rem;
+        white-space: none;
+    }
+
+    #sec3Title {
+        letter-spacing: 1rem;
+        white-space: none;
+    }
+
+    #sec4Title {
+        letter-spacing: 1rem;
+        white-space: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .f_contentArea {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f_leftBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.875rem;
+    }
+
+    .f_text {
+        text-align: center;
+    }
+
+    .f_rightBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.875rem;
+    }
+
+    .f_socialBox {
+        margin: 0 auto;
+        margin-bottom: 1.875rem;
+    }
+
+    .f_icon {
+        margin: 0.5rem;
+        /* margin-bottom: 1.875rem; */
+    }
+
+    .anyartBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: #aa00ff; */
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    #sec1 {
+        padding: 3.75rem 1.875rem;
+    }
+
+    /* .title {
+        font-size: 4vh;
+    } */
+
+    /* #secondTitle {
+        font-size: 3vh;
+    } */
+
+    .scillsContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .secTitleBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secTitle {
+        line-height: auto;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 3.75rem;
+    }
+
+    .sec1Box {
+        width: 100%;
+    }
+
+    .sec1BoxIcon {
+        width: 100%;
+    }
+
+    .sec1BoxTitle {
+        white-space: normal;
+    }
+
+    .sec1BoxDescription {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #firstTitle {
+        font-size: 2rem;
+    }
+
+    #secondTitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #sec3Title {
+        letter-spacing: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .sec5Title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    /* #sec3Title {
+        font-size: 2rem;
+    } */
+
+    .secTitle {
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 70vw;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .polygon {
+        width: 50%;
+        height: 50%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #firstTitle {
+        font-size: 3vh;
+    }
+
+    #secondTitle {
+        font-size: 3vh;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .sectionBoxLeftTitle {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 0px) {}

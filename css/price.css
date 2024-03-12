@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Raleway:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Raleway';
+}
+
+.sectionBoxRightTitle {
+    margin-top: 11.25rem;
+}
+
+.sectionCalculator {
+    background: #07090E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.75rem;
+}
+
+.calculatorBody {
+    background: #0D111A;
+    width: 47.5rem;
+    padding: 1.875rem 3.75rem;
+}
+
+.lineContainer {
+    width: 100%;
+    margin-bottom: 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerTitle {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    white-space: nowrap;
+    margin-right: 0.625rem;
+}
+
+.dashedLine {
+    width: 80%;
+    height: 3px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+    margin: 3.75rem auto;
+}
+
+.answerTitle {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 3.75rem;
+    margin-bottom: 1.875rem;
+}
+
+.inputBox {
+    display: flex;
+}
+
+.input {
+    margin-left: 0.625rem;
+    width: 12.5rem;
+    height: 1.5rem;
+    color: #07090E;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.separator {
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 1.875rem;
+}
+
+.totalPrice,
+.price,
+.inputTitle {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 0.625rem;
+    white-space: nowrap;
+}
+
+#totalPriceTitle {
+    margin-left: 0;
+}
+
+.toggleBody {
+    width: 2.5rem;
+    height: 1.25rem;
+    background: #787878;
+    border-radius: 2.625rem;
+    padding: 0.1250rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.toggleBody.active {
+    background: #295FCC;
+    /* justify-content: flex-end; */
+}
+
+.toggleCircle {
+    width: 1rem;
+    height: 1rem;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.toggleCircle.active {
+    margin-left: 1.25rem;
+}
+
+.btnQues {
+    margin: 0 auto;
+}
+
+
+/* ADAPTATION  */
+@media screen and (max-width: 1200px) {
+    #sec3Title {
+        letter-spacing: 2rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #sec3Title {
+        letter-spacing: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .calculatorBody {
+        width: 100%;
+    }
+
+    .lineContainer {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .containerTitle {
+        margin-bottom: 1.3rem;
+    }
+
+
+    .lineContainer {
+        display: grid;
+
+        grid-template-areas:
+            "A"
+            "B"
+        ;
+    }
+
+    .containerTitle {
+        grid-area: 'A';
+    }
+
+    .toggleBody {
+        grid-area: 'B';
+    }
+
+    .dashedLine {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .price,
+    .totalPrice {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #sec3Title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #sec3Title {
+        letter-spacing: 0.5rem;
+    }
+
+    .containerTitle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .socialBox {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #btnCalculate {
+        width: 100%;
+    }
+
+    .containerTitle {
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #sec3Title {
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    .calculatorBody {
+        padding: 1.875rem 0.875rem;
+    }
+
+    .socialBox {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 0px) {}

@@ -1,0 +1,58 @@
+<svg class="svg-icon" width="64" height="64"  viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.svg-icon {
+    stroke:rgba(255, 255, 255, 1);
+    stroke-width:2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill:none;
+    margin: 0 auto;
+    display:block;
+    
+}
+
+.big-arrow{
+    transform-origin:  center center;
+    animation: big-arrow 8s ease-in-out infinite;
+}
+@keyframes big-arrow {
+    75%, 100% {
+        transform: rotate(12turn);
+    }
+} 
+.small-arrow{
+    transform-origin: center center;
+    animation: small-arrow 8s ease-in-out infinite;
+}
+@keyframes small-arrow {
+    75%, 100% {
+        transform: rotate(1turn);
+    }
+} 
+</style>
+
+<circle cx="32" cy="32" r="31" />
+
+<g class="big-arrow">
+<path d="M32.0002 32L47.5886 23"/>
+</g>
+
+<g class="small-arrow">
+<path d="M32 32L23.3397 27"/>
+</g>
+
+<path d="M32 8V2"/>
+<path d="M32 62L32 56" />
+<path d="M56 32L62 32"/>
+<path d="M2 32H8"/>
+<path d="M44.9999 9.48314L46.9999 6.01904"/>
+<path d="M16.9999 57.9807L18.9999 54.5166"/>
+<path d="M54.5166 45L57.9807 47"/>
+<path d="M6.0193 17L9.4834 19"/>
+<path d="M54.5167 19L57.9808 17"/>
+<path d="M6.0193 47L9.4834 45"/>
+<path d="M45.0001 54.5164L47.0001 57.9805"/>
+<path d="M17.0001 6.01881L19.0001 9.48291"/>
+
+</svg>

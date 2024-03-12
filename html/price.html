@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/adaptation.css" />
+    <link rel="stylesheet" href="/css/price.css" />
+    <link type="image/x-icon" href="/favicon.png" rel="shortcut icon" />
+    <link type="image/x-icon" href="/favicon.png" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Raleway:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Price</title>
+  </head>
+  <body>
+    <div class="backgroundVideo">
+      <video src="/video/audi.mp4" autoplay loop muted class="bgVideo"></video>
+    </div>
+    <div class="backgroundPhoto"></div>
+
+    <div class="body">
+      <!-- HEADER -->
+      <header>
+        <div class="header">
+          <div class="hContentArea">
+            <div class="logo">
+              <img src="/icons/logo.svg" alt="#" class="logo" />
+            </div>
+
+            <!-- NAVIGATION -->
+            <nav>
+              <ul class="nav">
+                <li class="navItem">
+                  <a href="/index.html" class="navLink">Главная</a>
+                </li>
+                <li class="navItem">
+                  <a href="/html/price.html" class="navLink" id="currentPag"
+                    >Стоимость услуг</a
+                  >
+                </li>
+                <li class="navItem">
+                  <a href="/html/carsForSale.html" class="navLink"
+                    >Актуальные предложения</a
+                  >
+                </li>
+                <li class="navItem">
+                  <a href="/html/contacts.html" class="navLink">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- BURGER -->
+            <div class="burger">
+              <div class="burgerLine burgerLine1"></div>
+              <div class="burgerLine burgerLine2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BURGER MENU -->
+        <div class="burgerMenu">
+          <nav class="b_nav">
+            <ul class="b_nav">
+              <li class="b_navItem">
+                <a href="/index.html" class="b_navLink" id="b_currentPag"
+                  >Главная</a
+                >
+              </li>
+              <li class="b_navItem">
+                <a href="/html/price.html" class="b_navLink">Стоимость услуг</a>
+              </li>
+              <li class="b_navItem">
+                <a href="/html/carsForSale.html" class="b_navLink"
+                  >Актуальные предложения</a
+                >
+              </li>
+              <li class="b_navItem">
+                <a href="/html/contacts.html" class="b_navLink">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- SECTION PRICE -->
+      <section>
+        <div class="sectionBox sectionPrice" id="sec3Box1">
+          <div class="sectionBoxRight">
+            <h4 class="sectionBoxRightTitle">От чего зависит цена</h4>
+            <p class="sectionBoxRightDescription">
+              Стоимость автомобиля с нашими услугами прозрачная и понятная еще
+              «на берегу».<br />
+
+              Она состоит из:<br /><br />
+              • стоимости самого авто<br />
+              • расстояния до него (наш индекс — 10117 Berlin)<br />
+              • опционально – оформление через нашу фирму (3% от суммы
+              брутто)<br />
+              • опционально — получение временных номеров (350 €)<br />
+              • опционально — пригон авто из нужного города (€200 + топливо
+              €0,8/км)<br /><br />
+
+              Воспользуйтесь калькулятором ниже, чтобы рассчитать цену
+              автомобиля с нашими услугами и по желанию — дополнительными
+              опциями.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CALCULATOR -->
+      <section>
+        <div class="secTitleBox" id="sec3TitleBox">
+          <h2 class="secTitle" id="sec3Title">Калькулятор</h2>
+        </div>
+
+        <div class="sectionBox sectionCalculator">
+          <div class="calculatorBody">
+            <!-- LINE 1 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">Стоимость автомобиля (брутто)</h5>
+              <div class="inputBox">
+                <h5 class="inputTitle">€</h5>
+                <input
+                  type="number"
+                  name="inputPrice"
+                  step="1000"
+                  min="0"
+                  placeholder="0"
+                  id="inputPrice"
+                  class="input"
+                />
+              </div>
+            </div>
+
+            <!-- LINE 2 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">
+                Расстояние до авто (наш индекс 10117 Berlin)
+              </h5>
+              <div class="inputBox">
+                <h5 class="inputTitle">KM</h5>
+                <input
+                  type="number"
+                  name="inputKm"
+                  step="100"
+                  min="0"
+                  placeholder="0"
+                  id="inputKm"
+                  class="input"
+                />
+              </div>
+            </div>
+
+            <!-- LINE 3 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">
+                Оформление через нашу фирму <b>( 3% от суммы брутто)</b>
+              </h5>
+              <div class="toggleBody" id="toggle1">
+                <div class="toggleCircle" id="circle1"></div>
+              </div>
+            </div>
+
+            <!-- LINE 4 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">
+                Постановка авто на учет <b>(€350)</b>
+              </h5>
+              <div class="toggleBody" id="toggle2">
+                <div class="toggleCircle" id="circle2"></div>
+              </div>
+            </div>
+
+            <!-- LINE 5 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">
+                Забрать авто (€200 + топливо €0.8/км)
+              </h5>
+              <div class="toggleBody" id="toggle3">
+                <div class="toggleCircle" id="circle3"></div>
+              </div>
+            </div>
+
+            <!-- BUTTON -->
+            <a href="#btnCalculate" id="btnCalculate">
+              <div class="btn" id="btnCalculate">Рассчитать</div>
+            </a>
+
+            <!-- ANSWER SECTION -->
+            <h3 class="answerTitle">Общая стоимость</h3>
+            <div class="separator"></div>
+
+            <!-- LINE 1 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">Стоимость услуг</h5>
+              <div class="dashedLine"></div>
+              <div class="price" id="servicePriceAmount">€0</div>
+            </div>
+            <!-- LINE 2 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">Дорога до автомобиля</h5>
+              <div class="dashedLine"></div>
+              <div class="price" id="roadToTheCarAmount">€0</div>
+            </div>
+            <!-- LINE 3 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">Оформление через нашу фирму</h5>
+              <div class="dashedLine"></div>
+              <div class="price" id="registrationOurCompanyAmount">€0</div>
+            </div>
+            <!-- LINE 4 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">Постановка авто на учет</h5>
+              <div class="dashedLine"></div>
+              <div class="price" id="carRegistrationAmount">€0</div>
+            </div>
+            <!-- LINE 5 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">Забрать авто</h5>
+              <div class="dashedLine"></div>
+              <div class="price" id="getCarAmount">€0</div>
+            </div>
+            <!-- LINE 6 -->
+            <div class="lineContainer">
+              <h5 class="containerTitle">Возврат НДС</h5>
+              <div class="dashedLine"></div>
+              <div class="price" id="cashBackAmount">€0</div>
+            </div>
+
+            <div class="separator"></div>
+            <div class="lineContainer">
+              <h5 class="totalPrice" id="totalPriceTitle">Итого</h5>
+              <h5 class="totalPrice" id="totalPriceAmount">€0</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5 QUESTIONS? -->
+      <section>
+        <div class="section" id="sec5">
+          <h2 class="sec5Title" data-aos="fade-left" data-aos-delay="150">
+            Остались вопросы?
+          </h2>
+          <div class="btn btnQues" id="btnLinkContacts">Контакты</div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer">
+          <div class="f_contentArea">
+            <div class="f_leftBox">
+              <div class="f_logo">
+                <img src="/icons/logo.svg" alt="#" class="f_logo" />
+              </div>
+              <a href="tel:+49 157 5806 4259" class="f_text"
+                >+49 157 5806 4259</a
+              >
+              <a href="mailto: info@vikmotors.de" class="f_text"
+                >info@vikmotors.de</a
+              >
+              <a href="/html/impressum.html" class="f_text">Impressum</a>
+              <p class="f_text">Copyright © 2023</p>
+            </div>
+            <div class="f_rightBox">
+              <div class="socialBox f_socialBox">
+                <div class="f_icon" id="f_icon1">
+                  <img src="/icons/TG.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon2">
+                  <img src="/icons/WU.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon3">
+                  <img src="/icons/VB.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon5">
+                  <img src="/icons/FB.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon6">
+                  <img src="/icons/IG.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon4">
+                  <img src="/icons/YT.svg" alt="#" class="f_icon_icon" />
+                </div>
+              </div>
+              <div class="anyartBox">
+                <p class="anyartText">production by</p>
+                <div class="anyartLogo">
+                  <img
+                    src="/img/AnyArt_Logo_White.svg"
+                    alt="#"
+                    class="anyartLogo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/js/header.js"></script>
+    <script src="/js/footer.js"></script>
+    <script src="/js/calculator.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        // плавное перемещение страницы к нужному блоку
+        $("a").click(function () {
+          elementClick = $(this).attr("href");
+          destination = $(elementClick).offset().top - 70;
+          $("body,html").animate({ scrollTop: destination }, 700);
+        });
+      });
+    </script>
+  </body>
+</html>

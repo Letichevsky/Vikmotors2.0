@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Raleway:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+    display: flex;
+}
+
+a {
+    display: inline-block;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    background: #07090E;
+}
+
+.body {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.backgroundVideo {
+    width: 100vw;
+    max-width: 1920px;
+    height: 100vh;
+    filter: brightness(0.5);
+    position: fixed;
+    top: 0;
+}
+
+.backgroundPhoto {
+    display: none;
+    background: url("/img/backgroundPhoto.png") no-repeat center center / cover;
+    width: 100vw;
+    max-width: 1920px;
+    height: 100vh;
+    filter: brightness(0.5);
+    position: fixed;
+    top: 0;
+}
+
+/* WELCOME SECTION  */
+.welcomeSec {
+    /* padding-top: 16rem; */
+    width: 100%;
+    max-width: 1160px;
+    max-height: 1080px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleBox {
+    height: 66.66vh;
+    padding-top: 33.33vh;
+}
+
+.title {
+    color: #fff;
+    /* font-size: 4rem; */
+    font-size: 7vh;
+    text-transform: uppercase;
+}
+
+#firstTitle {
+    font-weight: 700;
+}
+
+#secondTitle {
+    font-weight: 400;
+    /* font-size: 3rem; */
+    font-size: 6vh;
+}
+
+.arrowBox {
+    width: 100%;
+    height: 33.33vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.welcomeArrow {
+    width: 111px;
+    height: 60px;
+    margin: 0 auto 3.75rem auto;
+    transition: 0.3s ease-in-out;
+}
+
+.welcomeArrow:hover {
+    margin: 16.875rem auto 2.5rem auto;
+}
+
+.welcomeArrowSVG {
+    transition: 0.3s ease-in-out;
+}
+
+.welcomeArrow:hover .welcomeArrowSVG {
+    stroke-opacity: 1;
+}
+
+
+
+
+
+
+
+/* SECTION 1 ABOUT US */
+
+.section {
+    width: 100vw;
+    max-width: 1920px;
+}
+
+#sec1 {
+    background: #0D111A;
+}
+
+.contentArea {
+    margin: 0 auto;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.secTitle {
+    font-weight: 800;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.sec1Line {
+    width: 1160px;
+    height: 1px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+.sec1Description {
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 60px;
+}
+
+.scillsContainer {
+    display: flex;
+}
+
+.sec1Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sec1BoxIcon {
+    width: 160px;
+    height: 75px;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sec1BoxTitle {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sec1BoxDescription {
+    font-weight: 400;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* SECTION 2 USLUGI */
+.secTitleBox {
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F234C;
+}
+
+#sec2Title {
+    margin-top: 3.75rem;
+}
+
+#secBox1 {
+    background: url(/img/services__block-1.jpg) no-repeat center center / cover;
+    /* min-height: 25rem; */
+}
+
+.sectionBoxRight {
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    padding: 3.75rem;
+}
+
+.sectionBoxRightTitle {
+    font-weight: 400;
+    font-size: 2.25rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.sectionBoxRightDescription {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 31.25rem;
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.closed {
+    height: 0;
+}
+
+
+
+.sectionBoxRightDescription.active1 {
+    height: 14rem;
+}
+
+.sectionBoxLeftDescription.active2 {
+    height: 16rem;
+}
+
+.sectionBoxLeftDescription.active3 {
+    height: 7rem;
+}
+
+.sectionBoxRightDescription.active4 {
+    height: 11rem;
+}
+
+.sectionBoxRightDescription.active5 {
+    height: 11rem;
+}
+
+.sectionBoxLeftDescription.active6 {
+    height: 7rem;
+}
+
+.sectionBoxLeftDescription.active7 {
+    height: 7rem;
+}
+
+.sectionBoxRightDescription.active8 {
+    height: 14rem;
+}
+
+.btn {
+    width: 18.75rem;
+    height: 3.75rem;
+    border: 4px solid #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.sectionBoxLeft {
+    width: 50%;
+    height: 100%;
+    margin-right: 50%;
+    padding: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sectionBoxLeftTitle {
+    text-align: right;
+    font-weight: 400;
+    font-size: 2.25rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.sectionBoxLeftDescription {
+    text-align: right;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 31.25rem;
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+}
+
+.btnBox {
+    display: flex;
+}
+
+.btnWatch {
+    display: flex;
+    align-items: center;
+    margin-left: 2.5rem;
+}
+
+.btnWatch:hover {
+    cursor: pointer;
+}
+
+.btnWatch:hover .btnWatchIcon {
+    border: 4px solid #fff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.btnWatch:hover .polygon {
+    fill: #fff;
+}
+
+.btnWatch:hover .btnWatchText {
+    text-decoration: underline;
+}
+
+
+
+.btnWatchIcon {
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in-out;
+}
+
+.polygon {
+    margin-left: 6px;
+}
+
+.btnWatchText {
+    color: #fff;
+    margin-left: 1.25rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.btnWatchText:hover {
+    cursor: pointer;
+}
+
+#secBox2 {
+    background: url(/img/services__block-2.jpg) no-repeat center center / cover;
+}
+
+#secBox3 {
+    background: url(/img/services__block-3.jpg) no-repeat center center / cover;
+}
+
+#secBox4 {
+    background: url(/img/services__block-4.jpg) no-repeat center center / cover;
+}
+
+#secBox5 {
+    background: url(/img/services__block-5.jpg) no-repeat center center / cover;
+}
+
+/* SECTION 3 PRICE */
+#sec3TitleBox {
+    background: #0D111A;
+}
+
+#sec3Title {
+    margin-top: 3.75rem;
+}
+
+#sec3Box1 {
+    background: url(/img/image.jpg) no-repeat center center / cover;
+}
+
+/* SECTION 4 ACTUAL CARS */
+#sec4TitleBox {
+    background: #0D111A;
+}
+
+#sec4Title {
+    margin-top: 3.75rem;
+    text-align: center;
+}
+
+#sec4Box1 {
+    background: url(/img/store__block-1.jpg) no-repeat center center / cover;
+}
+
+/* SECTION 5 QUETIONS? */
+#sec5 {
+    background: rgba(0, 0, 0, 0.49);
+    padding: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec5Title {
+    font-weight: 400;
+    color: #fff;
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+}
+
+/* THE LINE */
+.theLine {
+    width: 2px;
+    height: 0px;
+    max-height: 184rem;
+    /* max-height: 2944px; */
+    border-radius: 4px;
+    background: #fff;
+    position: absolute;
+    margin-left: -3.75rem;
+    /* transition: 0.1s ease-in-out; */
+    z-index: 20;
+}
+
+/* POINT LINE */
+.pointLine {
+    width: 0%;
+    border-top: 1px solid #fff;
+
+    transition: 1s ease-in-out;
+}
+
+.pointLineRight {
+    margin-left: -3.75rem;
+}
+
+.pointLineLeft {
+    margin-right: -3.75rem;
+}
+
+/* POINT */
+.pointBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: -1.5rem 0 1.875rem 0;
+}
+
+.pointBoxLeft {
+    justify-content: end;
+}
+
+.thePoint {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    /* border: 2px solid #fff; */
+    transition: 0.2s ease-in-out;
+}
+
+.thePointRight {
+    margin-left: -4.20rem;
+}
+
+.thePointLeft {
+    margin-right: -4.3rem;
+}
+
+.thePoint.active {
+    transform: scale(1.5);
+    background: #fff;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100vw;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #07090E;
+}
+
+.f_contentArea {
+    margin: 0 auto;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.f_logo {
+    width: 8.43rem;
+    height: 3.5rem;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.f_text {
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.f_rightBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialBox {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 4.5rem;
+}
+
+.f_icon {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 1.25rem;
+}
+
+.anyartBox {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.anyartText {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #fff;
+    margin-right: 1.25rem;
+}
+
+.anyartLogo {
+    width: 3.75rem;
+    height: 3.75rem;
+}
